@@ -3,13 +3,18 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f9f9f9;
 }
 html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3 {
+h1, h2, h3, ion-icon{
   color: #333;
+}
+
+h2{
+  padding-left: 9px;
 }
 
 a {
@@ -44,8 +49,13 @@ section {
 }
 
 /* Estilos específicos */
-#sobre {
-  background-color: #f9f9f9;
+#contentSobre {
+  max-width: 60%;
+}
+
+#sobre{
+  display: flex;
+  justify-content: center;
 }
 
 #projetos .projeto {
@@ -64,3 +74,12 @@ section {
   cursor: pointer;
 }
 
+#LinkRedes {
+  padding: 20px;
+}
+
+#redesSociais {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
