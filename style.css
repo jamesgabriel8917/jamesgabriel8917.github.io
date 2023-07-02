@@ -74,7 +74,7 @@ section {
   cursor: pointer;
 }
 
-#LinkRedes {
+.LinkRedes {
   padding: 20px;
 }
 
@@ -130,6 +130,7 @@ figure {
   }
 
   .texto {
+    max-width: none;
     margin-left: 0;
     margin-top: 10px;
   }
