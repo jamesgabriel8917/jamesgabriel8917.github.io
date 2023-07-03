@@ -90,7 +90,6 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   flex-wrap: wrap;
-  padding: 50px;
 }
 
 
@@ -127,11 +126,16 @@ figure {
   .container figure {
     width: 320px;
     height: auto;
+    align-items: center;
   }
 
   .texto {
     max-width: none;
     margin-left: 0;
     margin-top: 10px;
+  }
+
+  #contentSobre {
+    max-width: 100%;
   }
 }
