@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
@@ -81,6 +81,11 @@ section {
 
 .LinkRedes {
   padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.LinkRedes:hover{
+  transform: scale(1.1); /* Aumenta a escala da imagem em 10% */
 }
 
 #redesSociais {
@@ -89,27 +94,34 @@ section {
   justify-content: center;
 }
 
-
-
-figure {
-  width: 100%;
-  height: 100%;
-
+.item {
+  display: flex;
+  flex-direction: row;
 }
+
+.item img{
+  width: 600px; /* Altere para o tamanho desejado */
+  height:fit-content;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.item img:hover{
+  transform: scale(1.1); /* Aumenta a escala da imagem em 10% */
+}
+
+
 .text{
   text-align: justify;
 }
 
-.container {
-  display: flex;
-  align-items: flex-start;
-  background-color: #f5f5f5;
-  border-radius: 25px;
-  padding-bottom: 10px;
+.image-text{
+  padding: 8%;
 }
 
-.container img {
-  max-width: 100%;
+.image-container{
+  display: flex;
+  flex-direction: column;
 }
 
 .texto {
@@ -119,26 +131,26 @@ figure {
 }
 
 @media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .container img {
-    max-width: 80%;
-
-  }
-
-  .container figure {
-    width: 300px;
-    height: auto;
-    align-items: center;
-  }
-
   .texto {
     max-width: none;
     margin-left: 0;
     margin-top: 10px;
   }
+
+  .image-text{
+    padding: 5px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .item img{
+    width: 300px; /* Altere para o tamanho desejado */
+    height: auto;
+  }
+  
 
   #contentSobre {
     max-width: 100%;
