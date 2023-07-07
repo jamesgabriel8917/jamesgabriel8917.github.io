@@ -111,7 +111,7 @@ section {
 }
 
 
-.text{
+.text, .image-text{
   text-align: justify;
 }
 
