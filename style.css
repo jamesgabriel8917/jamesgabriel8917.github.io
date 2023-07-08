@@ -53,9 +53,13 @@ section {
 }
 
 /* Estilos específicos */
-#contentSobre {
+#contentSobre, .title-container{
   max-width: 60%;
+  width: fit-content;
+  height: fit-content;
 }
+
+
 
 #sobre{
   display: flex;
@@ -138,6 +142,14 @@ section {
     margin-left: 0;
     margin-top: 10px;
   }
+
+  /* Estilos específicos */
+#contentSobre, .title-container{
+  max-width: 100%;
+  width: fit-content;
+  height: fit-content;
+}
+
 
   .image-text{
     padding: 5px;
