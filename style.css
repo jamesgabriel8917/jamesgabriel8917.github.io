@@ -10,8 +10,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.nav-item{
-  align-items: center;
+#navbar-nav{
+  
 }
 
 h1, h2, h3, ion-icon{
