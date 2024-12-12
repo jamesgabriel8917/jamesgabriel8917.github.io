@@ -99,6 +99,7 @@ section {
 .item {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .item img{
@@ -152,7 +153,7 @@ section {
 }
 
 
-  .image-text{
+  .image-text {
     padding: 5px;
     width: 100%;
     text-align: center;
@@ -161,6 +162,7 @@ section {
   .item {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   
 
